@@ -1,3 +1,9 @@
+.apresentação{
+    font-size: 25px;
+    font-family: 7;
+    text-align: justify;
+    font-weight: normal;
+}
 
 
 nav button{
@@ -27,26 +33,7 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
-}
-
-header {
-    background-color: #4a4e69;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-    border-bottom: 5px solid #9a8c98;
-}
-
-nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
-}
-
-nav a:hover {
-    color: #f2e9e4;
+    
 }
 
 main {
@@ -64,6 +51,7 @@ main p {
     font-size: 1.2em;
     font-weight: bold;
     color: #22223b;
+    flex: 1;
 }
 
 
@@ -74,11 +62,12 @@ ul {
     color: #4a4e69;
 }
 
-footer {
-    background-color: #22223b;
-    color: #f2e9e4;
-    text-align: center;
-    padding: 15px 0;
-    margin-top: 40px;
-    font-size: 0.9em;
+
+body {
+  padding-bottom: 20px;
 }
+
+.navbar {
+  margin-bottom: 15px;
+}
+
