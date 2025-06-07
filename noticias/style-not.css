@@ -1,5 +1,7 @@
 
-
+body{
+    background-color: #F3F4F6;
+}
 a {
     font-family: 'Times New Roman', Times, serif;
     color: black;
@@ -21,6 +23,7 @@ img{
     border-radius: 10px;
     width: 250px;
     height: 150px;
+
 }
 
 
@@ -34,6 +37,7 @@ h3 {
 
 .itens{
     padding: 5px;
+    padding-top: 20px;
     height: 100%; 
     display: flex;
     flex-direction: column;
@@ -41,8 +45,9 @@ h3 {
     justify-content: space-between;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
-    background-color: white;
+    background-color: #FFFFFF;
     text-align: center;
+
 }
 nav {
     border-radius: 15px;
@@ -56,4 +61,20 @@ nav {
 
 row {
     margin-bottom: 20px;
+}
+
+
+header{
+    margin-bottom: 40px;
+    
+}
+
+.col-4{
+    padding-bottom: 50px;
+}
+
+
+h2 {
+    padding: 1%;
+    font-family: 'Times New Roman', Times, serif;
 }
